@@ -19,8 +19,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Card
-          /* prop ismi = { değişken } */
           author={recipeAuthor}
+          likeCount={likeCount}
+          isLiked={isLiked}
+          recipeItem={recipeItem}
         />
       </header>
     </div>
